@@ -1,4 +1,4 @@
-import React from 'react'
+import { GoDot } from "react-icons/go";
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
             </div>
             <div className=''>
               <h1 className='text-[#1a2b3b] sm:text-2xl text-1xl font-bold'>Week of 2024-07-26</h1>
-              <p className='text-[#1a2b3b] text-[16px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quidem laboriosam, praesentium quos sint quam?</p>
+              <p className='text-[#1a2b3b] text-[16px]'><GoDot className="inline text-1xl text-gray-400"/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quidem laboriosam, praesentium quos sint quam?</p>
             </div>
         </div>
           
@@ -32,7 +32,7 @@ const App = () => {
             </div>
             <div className=''>
               <h1 className='text-[#1a2b3b] sm:text-2xl text-1xl font-bold'>Week of 2024-07-26</h1>
-              <p className='text-[#1a2b3b] text-[16px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quidem laboriosam, praesentium quos sint quam?</p>
+              <p className='text-[#1a2b3b] text-[16px]'><GoDot className="inline text-1xl text-gray-400"/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quidem laboriosam, praesentium quos sint quam?</p>
             </div>
         </div>
      </div>
