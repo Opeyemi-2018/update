@@ -62,7 +62,7 @@ const App = () => {
                             <div class="text-base">
                               {whatsNewContents.map((whatsNewContent) => {
                                 return (
-                                  <ul>
+                                  <ul className="ml-9">
                                     <li class="relative text-[16px]  ml-6 before:absolute before:-left-6 before:top-2 before:h-2 before:w-2 before:rounded-full before:border-2 before:border-gray-300">
                                       {whatsNewContent}
                                     </li>
@@ -77,7 +77,7 @@ const App = () => {
                             <div class="text-base">
                               {improvementContents.map((improvementContent) => {
                                 return (
-                                  <ul>
+                                  <ul className="ml-9">
                                     <li class="relative text-[16px] ml-6 before:absolute before:-left-6 before:top-2 before:h-2 before:w-2 before:rounded-full before:border-2 before:border-gray-300">
                                       {improvementContent}
                                     </li>
@@ -92,7 +92,7 @@ const App = () => {
                             <div class="text-base">
                               {bugFixContents.map((bugFixContent) => {
                                 return (
-                                  <ul>
+                                  <ul className="ml-9">
                                     <li class="relative text-[16px] ml-6 before:absolute before:-left-6 before:top-2 before:h-2 before:w-2 before:rounded-full before:border-2 before:border-gray-300">
                                       {bugFixContent}
                                     </li>
